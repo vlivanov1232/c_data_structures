@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include "hash_table.h"
 #include <stdlib.h>
+
 int main()
 {
-	printf("Hello world!");	
+	ht_hash_table* ht = ht_new();
+	ht_del_hash_table(ht);
 	return EXIT_SUCCESS;
 }
